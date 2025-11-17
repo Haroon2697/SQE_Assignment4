@@ -21,6 +21,10 @@
     "test:optimization": "cypress run --spec 'cypress/e2e/06-portfolio-optimization/*.cy.js'",
     "test:tactical": "cypress run --spec 'cypress/e2e/07-tactical-allocation/*.cy.js'",
     "test:config": "cypress run --spec 'cypress/e2e/08-configuration/*.cy.js'",
+    "test:moving": "cypress run --spec 'cypress/e2e/10_moving_averages.cy.js'",
+    "test:momentum": "cypress run --spec 'cypress/e2e/11_momentum_rotation.cy.js'",
+    "test:expectations": "cypress run --spec 'cypress/e2e/15_manage_market_expectations.cy.js'",
+    "test:regimes": "cypress run --spec 'cypress/e2e/16_manage_market_regimes.cy.js'",
     "test:all": "cypress run --record"
   },
   "keywords": ["cypress", "testing", "automation", "portfolio-visualizer"],
