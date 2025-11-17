@@ -1,0 +1,32 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress automation for Portfolio Visualizer - Assignment 04",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed --browser chrome",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome --headed",
+    "cy:record": "cypress run --record --key belcalca-a476-4d3a-94b1-01ffc922aca6",
+    "test:auth": "cypress run --spec 'cypress/e2e/01-authentication/*.cy.js'",
+    "test:backtest": "cypress run --spec 'cypress/e2e/02-backtest-portfolio/*.cy.js'",
+    "test:factor": "cypress run --spec 'cypress/e2e/03-factor-analysis/*.cy.js'",
+    "test:asset": "cypress run --spec 'cypress/e2e/04-asset-analytics/*.cy.js'",
+    "test:monte": "cypress run --spec 'cypress/e2e/05-monte-carlo/*.cy.js'",
+    "test:optimization": "cypress run --spec 'cypress/e2e/06-portfolio-optimization/*.cy.js'",
+    "test:tactical": "cypress run --spec 'cypress/e2e/07-tactical-allocation/*.cy.js'",
+    "test:config": "cypress run --spec 'cypress/e2e/08-configuration/*.cy.js'",
+    "test:all": "cypress run --record"
+  },
+  "keywords": ["cypress", "testing", "automation", "portfolio-visualizer"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}

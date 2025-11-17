@@ -1,0 +1,43 @@
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test Results
+test-results/
+reports/
+coverage/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Assignment PDF (optional - remove if you want to include it)
+# Assignment03-SQE.pdf
+assignment03.txt
+
